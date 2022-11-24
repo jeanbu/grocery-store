@@ -9,7 +9,7 @@ const LineItem = ({ item, handleCheck, handleDelete }) => {
         checked={item.checked}
       />
       <label onDoubleClick={() => handleCheck(item.id)}>{item.item}</label>
-      <button onClick={() => handleDelete(item.id)}>X</button>
+      <button onClick={() => handleDelete(item.id)}>x</button>
     </li>
   );
 };
